@@ -37,7 +37,6 @@ forms that dictionaries do not list exhaustively.
 | `test_main.py` | Unit tests for the main analysis pipeline |
 | `requirements-extraction.txt` | Dependency list for dictionary extraction scripts |
 | `scripts/` | Scripts for rebuilding local dictionary extracts |
-| `private_data/` | Prepared corpus and local dictionary extracts |
 | `output/` | Generated analysis results |
 | `Report.pdf` | Written project report |
 
@@ -61,8 +60,8 @@ From the repository root:
 python3 main.py
 ```
 
-The supplied `private_data/` directory contains the prepared corpus and local
-dictionary extracts required for the analysis.
+The dictionaries are not included in this repository. To run the full analysis, please obtain the original dictionaries according to the references cited under "Dictionary lookup" (Reference A and Reference B). 
+The pre-computed results are reported in `Report.pdf`.
 
 A complete run processes **11,625 valid LCMC/UCLA records** and divides them by
 scope before dictionary lookup:
