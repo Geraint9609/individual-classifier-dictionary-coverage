@@ -1,0 +1,2 @@
+# Additional dependency for extracting text from the second reference PDF.
+pypdf==6.10.0

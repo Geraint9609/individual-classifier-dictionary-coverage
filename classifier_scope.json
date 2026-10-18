@@ -1,0 +1,66 @@
+{
+  "include": {
+    "specific_individual": {
+      "description": "Lexically selective individual classifiers retained in the core experiment.",
+      "classifiers": [
+        "张", "只", "家", "座", "份", "项", "段", "条", "件", "部",
+        "颗", "句", "支", "把", "根", "台", "辆", "间", "篇", "封",
+        "幅", "处", "笔", "副", "本", "枚", "门", "艘", "杆", "架",
+        "首", "朵", "粒", "棵", "幢", "所", "株", "桩", "面", "滴",
+        "头", "页", "扇", "例", "户", "则", "章", "栋", "卷", "尊",
+        "曲", "枝", "宗", "匹", "顶", "具", "味", "集", "册"
+      ]
+    }
+  },
+  "exclude": {
+    "broad_productive": {
+      "description": "General or broad human classifiers excluded because their high productivity contributes little lexical-selection evidence.",
+      "classifiers": ["个", "位", "名", "员"]
+    },
+    "event_classifier": {
+      "description": "Classifiers of events, occurrences, rounds, repetitions or meals.",
+      "classifiers": [
+        "次", "场", "届", "轮", "起", "阵", "番", "遍", "顿", "下",
+        "趟", "回", "记", "席", "发", "通", "幕", "拳", "局", "餐",
+        "声", "步"
+      ]
+    },
+    "kind_classifier": {
+      "description": "Kind, type, model or variety classifiers.",
+      "classifiers": ["种", "类", "样", "款", "等", "路"]
+    },
+    "collective_classifier": {
+      "description": "Collective, paired, grouped or set classifiers.",
+      "classifiers": [
+        "批", "系列", "群", "套", "双", "对", "组", "团", "束", "串",
+        "伙", "班", "排", "队", "列", "帮", "拨"
+      ]
+    },
+    "container_measure": {
+      "description": "Container-based measures rather than lexically selective individual classifiers.",
+      "classifiers": [
+        "杯", "盆", "瓶", "盘", "碗", "袋", "桶", "包", "桌", "箱",
+        "盒", "锅", "罐", "壶", "肚子"
+      ]
+    },
+    "approximate_or_standard_measure": {
+      "description": "Approximate quantities, partitives, statistical units or standard measures.",
+      "classifiers": [
+        "堆", "股", "丝", "缕", "点", "分", "剂", "码", "人次", "脸", "身", "些", "行"
+      ]
+    },
+    "ordinal_naming_or_time": {
+      "description": "Numbering, generation, rank, tenure or time-period expressions.",
+      "classifiers": ["号", "代", "级", "任", "辈", "季"]
+    }
+  },
+  "review": {
+    "polyfunctional": {
+      "description": "Forms that can act as an individual classifier in some contexts but as a measure, event or other construction in others.",
+      "classifiers": [
+        "片", "块", "层", "道", "口", "盏", "圈", "手", "堂",
+        "眼", "线", "环", "刀", "袭", "节"
+      ]
+    }
+  }
+}
